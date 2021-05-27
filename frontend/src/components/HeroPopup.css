@@ -1,0 +1,70 @@
+.content {
+    text-align: center;
+    position: fixed;
+    height: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.884);
+  }
+  
+  .content-popup-use {
+    position: relative;
+    background-color: white;
+    width: 680px;
+    height: 320px;
+    padding: 5%;
+    
+    border-radius: 5px;
+    display: flex;
+    text-align: justify;
+    line-height: 2;  
+    font-size: 1.2rem;
+  }
+
+  .BTN-Close {
+    position: absolute;
+    top: 1%;
+    right: 1%;
+    background-color: rgb(255, 255, 255);
+    width: 3%;
+    height: 4%;
+    padding: 5px;
+  }
+
+  .img-hero{
+    display: flex;
+    justify-content: flex-start;
+    height: 270px;
+  }
+
+  .content-popup-use span{
+    position: relative;
+    margin-right:50% ;
+  }
+
+ .content-popup-use p{
+    position: relative;
+ }
+
+ .detail-hero{
+   position: relative;
+   margin-left:5% ;
+ }
+
+ .detail-hero h2{
+color: red;
+text-align: center;
+ }
+
+ .icon-attack{
+   height: 20px;
+   width: 20px;
+ }
+ 
+ 

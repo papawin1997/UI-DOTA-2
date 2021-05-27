@@ -1,0 +1,45 @@
+* {
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+
+
+.container-naja{
+  display: flex; 
+  flex-wrap: wrap;
+  max-width: 1440px ;
+  width: 1440px;
+  padding: 10px;
+ margin-left: 50%;
+ transform: translate(-50%, 0%);
+
+}
+
+.container-naja img{
+  height: auto; 
+  width: 230px;
+  padding: 2px;
+  border-radius: 2px;
+  transition: opacity 0.5s ;
+  
+}
+
+.container-naja img:hover{
+  border: 1px solid white;
+  opacity: 10%;
+  background-color: rgba(0, 0, 0, 0.616);
+  cursor: pointer;
+}
+
+.filter{
+  background-color: rgba(255, 0, 0, 0.671);
+  display: flex;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}

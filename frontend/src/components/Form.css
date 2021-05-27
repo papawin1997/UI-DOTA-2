@@ -1,0 +1,29 @@
+.label  {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+  }
+  .option {
+    margin-top: 1%;
+    margin-left: 1%;
+    width: auto; 
+    border-radius: 0.25em;
+    padding: 0.25em 0.5em;
+    font-size: 1.25rem;
+    cursor: pointer;
+    line-height: 1.1;
+    background-color: white;
+    
+  }
+  
+  .input-hero{
+    margin-top: 1%;
+    margin-left: 1%;
+    width: auto; 
+    border-radius: 0.25em;
+    padding: 0.25em 0.5em;
+    font-size: 1.25rem;
+    cursor: pointer;
+    line-height: 1.1;
+    background-color: white;
+    margin-left: 5%;
+  }
