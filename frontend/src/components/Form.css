@@ -3,27 +3,24 @@
     font-size: 20px;
   }
   .option {
-    margin-top: 1%;
-    margin-left: 1%;
-    width: auto; 
-    border-radius: 0.25em;
-    padding: 0.25em 0.5em;
-    font-size: 1.25rem;
-    cursor: pointer;
-    line-height: 1.1;
-    background-color: white;
-    
+    width: 160px; 
+    height: 55px; 
   }
   
   .input-hero{
-    margin-top: 1%;
-    margin-left: 1%;
-    width: auto; 
+    width: 220px; 
+    height: 55px;
+    margin-left: 5%;
+  
+  }
+
+  .input-style{
     border-radius: 0.25em;
     padding: 0.25em 0.5em;
-    font-size: 1.25rem;
+    font-size: 1.2rem;
     cursor: pointer;
     line-height: 1.1;
     background-color: white;
-    margin-left: 5%;
   }
+
+

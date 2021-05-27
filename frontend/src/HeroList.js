@@ -85,20 +85,45 @@ export default function HeroList(props) {
 
   return (
     <div>
-      <div className="filter">
-        <FromAttr changeAttr={setHeroAttr} />&nbsp;
-        <FormAttck changeAttack={setHeroAttack} />&nbsp;
-        <FormRole changeRole={setHeroRole} />
-        <InputHero setInputName={setInputName} inputName={inputName} />
+      {/* <div className="filter">
+        <div>
+        <div className="container-naja">
+          <h1>DOTA 2</h1>
+
+          <div className="item">
+            <InputHero setInputName={setInputName} inputName={inputName} />
+            <FromAttr changeAttr={setHeroAttr} />&nbsp;
+                <FormAttck changeAttack={setHeroAttack} />&nbsp;
+                <FormRole changeRole={setHeroRole} />
+          </div>
+
+          <Hero heros={heroFilter} />
+        </div>
       </div>
-      <div><Hero heros={heroFilter} /></div>
+      <div>
+      </div>
+        <Hero heros={heroFilter} /> */}
 
+      <div className="container">
+        <div className="navbar"><h1>DOTA 2</h1>
 
+          <div className="item">
+            <div> <InputHero setInputName={setInputName} inputName={inputName} /></div>
+            <div className="select-flex"></div>
+            <div><FromAttr changeAttr={setHeroAttr} /></div>
+            <div><FormAttck changeAttack={setHeroAttack} /></div>
+            <div> <FormRole changeRole={setHeroRole} /></div>
+          </div>
+        </div>
 
+        <div className="content">
+          <Hero heros={heroFilter} />
 
+        </div>
 
-
+      </div>
 
     </div>
+
   );
 }

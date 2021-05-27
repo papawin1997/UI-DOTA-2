@@ -12,11 +12,11 @@ export default function FormAttck(prop) {
                     name="rounds"
                     id="rounds"
                     onChange={(event) => { changeAttack(event.target.value) }}
-                    className="option"
+                    className="option input-style"
                 >
-                    <option value=" ">Attack Type</option>
-                    <option value="Melee">Melee</option>
-                    <option value="Ranged">Ranged</option>
+                    <option value=" ">ATTACK TYPE</option>
+                    <option value="Melee">MELEE</option>
+                    <option value="Ranged">RANGED</option>
                 </select>
             </form>
         </div>

@@ -10,7 +10,7 @@ export default function FromAttr(prop) {
                     name="rounds"
                     id="rounds"
                     onChange={(event) => { changeAttr(event.target.value) }}
-                    className="option">
+                    className="option input-style">
                     <option value=" ">
                         Attribute
                     </option>

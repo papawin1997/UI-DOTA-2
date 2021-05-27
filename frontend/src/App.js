@@ -5,7 +5,6 @@ import HeroList from "./HeroList";
 function App() {
   return (
     <div className="app">
-
       <HeroList />
     </div>
   );

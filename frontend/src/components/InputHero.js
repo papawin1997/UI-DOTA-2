@@ -6,8 +6,8 @@ export default function InputHero(prop) {
     return (
         <div>
             <div>
-                <input className="input-hero"
-                    type="text" placeholder="Name..."
+                <input className="input-hero input-style"
+                    type="text" placeholder="NAME SEARCH"
                     value={inputName}
                     onChange={(event) => { setInputName(event.target.value) }} />
             </div>

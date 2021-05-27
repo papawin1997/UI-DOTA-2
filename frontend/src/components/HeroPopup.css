@@ -1,4 +1,5 @@
-.content {
+
+   .content-popup {
     text-align: center;
     position: fixed;
     height: auto;
@@ -12,16 +13,15 @@
     align-items: center;
     background-color: rgba(0, 0, 0, 0.884);
   }
-  
+
   .content-popup-use {
     position: relative;
-    background-color: white;
-    width: 680px;
-    height: 320px;
-    padding: 5%;
-    
-    border-radius: 5px;
     display: flex;
+  
+    background-color: white;
+    width: 700px;
+    height: 320px;
+    border-radius: 5px;
     text-align: justify;
     line-height: 2;  
     font-size: 1.2rem;
@@ -29,42 +29,33 @@
 
   .BTN-Close {
     position: absolute;
-    top: 1%;
-    right: 1%;
-    background-color: rgb(255, 255, 255);
+    top: 5%;
+    right: 2%;
+    background-color: rgba(255, 255, 255, 0.829);
     width: 3%;
     height: 4%;
     padding: 5px;
   }
 
-  .img-hero{
+  .img-vert-hero{
+    padding: 20px;
+    border-radius: 5px;
+  }
+
+  .content-popup-use h2{
+    color: red;
+    padding: 20px;
     display: flex;
-    justify-content: flex-start;
-    height: 270px;
+    justify-content: center;
+    width: 380px;
+    height: 80px;
+  
   }
-
-  .content-popup-use span{
-    position: relative;
-    margin-right:50% ;
+  .detail{
+    line-height: 3; 
+    font-size: 1.25rem;
   }
-
- .content-popup-use p{
-    position: relative;
- }
-
- .detail-hero{
-   position: relative;
-   margin-left:5% ;
- }
-
- .detail-hero h2{
-color: red;
-text-align: center;
- }
-
- .icon-attack{
-   height: 20px;
-   width: 20px;
- }
- 
- 
+  .icon-attack{
+    width: 30px;
+    height: 30px;
+  }
