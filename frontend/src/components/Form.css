@@ -3,11 +3,14 @@
     font-size: 20px;
   }
   .option {
+    max-width: 100%;
     width: 160px; 
     height: 55px; 
+
   }
   
   .input-hero{
+    max-width: 100%;
     width: 220px; 
     height: 55px;
     margin-left: 5%;
@@ -21,6 +24,9 @@
     cursor: pointer;
     line-height: 1.1;
     background-color: white;
+    margin-left: 15px;
+    
   }
 
+  
 

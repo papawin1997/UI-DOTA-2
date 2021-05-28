@@ -85,25 +85,6 @@ export default function HeroList(props) {
 
   return (
     <div>
-      {/* <div className="filter">
-        <div>
-        <div className="container-naja">
-          <h1>DOTA 2</h1>
-
-          <div className="item">
-            <InputHero setInputName={setInputName} inputName={inputName} />
-            <FromAttr changeAttr={setHeroAttr} />&nbsp;
-                <FormAttck changeAttack={setHeroAttack} />&nbsp;
-                <FormRole changeRole={setHeroRole} />
-          </div>
-
-          <Hero heros={heroFilter} />
-        </div>
-      </div>
-      <div>
-      </div>
-        <Hero heros={heroFilter} /> */}
-
       <div className="container">
         <div className="navbar"><h1>DOTA 2</h1>
 

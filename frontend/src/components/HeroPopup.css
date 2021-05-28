@@ -17,14 +17,16 @@
   .content-popup-use {
     position: relative;
     display: flex;
-  
+    max-width: 100%;
+    width: 580px;
     background-color: white;
-    width: 700px;
-    height: 320px;
+    height: auto;
     border-radius: 5px;
     text-align: justify;
     line-height: 2;  
     font-size: 1.2rem;
+    flex-wrap: wrap;
+    
   }
 
   .BTN-Close {
@@ -38,29 +40,34 @@
   }
 
   .img-vert-hero{
-    padding: 20px;
+    padding: 10px;
     border-radius: 5px;
   }
 
   .content-popup-use h2{
+  
     color: red;
     padding: 20px;
-    display: flex;
     justify-content: center;
-    width: 380px;
     height: 80px;
+   
   
   }
   .detail{
-    line-height: 3; 
+    word-wrap: break-word;
     font-size: 1.25rem;
+    max-width: 320px;
   }
   .icon-attack{
+    max-width: 100%;
     width: 30px;
     height: 30px;
   }
 
   .img-vert-hero {
-   width: auto; 
-   height: 320px;
+   max-width: 100%;
+   width: 240px;
+   height: 280px;
   }
+
+  
