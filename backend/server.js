@@ -6,6 +6,13 @@ app.use(cors());
 app.use(express.json());
 
 const db = require("./connect");
+const port = process.env.PORT || 3000;
+
+
+
+app.get("/", (req, res) => {
+  res.status(200).send("หน้าแรกของ api express");
+});
 
 app.get("/showdota", (req, res, next) => {
   db.then((db) => {
@@ -19,11 +26,11 @@ app.get("/showdota", (req, res, next) => {
             status: 500,
             message: "Internal Server Error",
           });
-      
+
         return res.json(results);
       });
   });
 });
-app.listen("8000", () => {
-  console.log("8000 redy");
+app.listen(port, () => {
+  console.log("3000 redy");
 });

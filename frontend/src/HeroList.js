@@ -17,7 +17,7 @@ export default function HeroList(props) {
   const [inputName, setInputName] = useState("")
 
   useEffect(() => {
-    axios.get("http://localhost:8000/showdota").then((result) => {
+    axios.get("https://myappdota2.herokuapp.com/showdota").then((result) => {
       const { data } = result;
 
       data.sort(function (a, b) {
